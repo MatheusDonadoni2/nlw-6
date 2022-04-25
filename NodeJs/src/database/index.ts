@@ -1,2 +1,5 @@
-import { createConnection } from "typeorm";
-createConnection();
+import { createConnection, Connection } from "typeorm";
+
+const connection = await createConnection({
+
+});
