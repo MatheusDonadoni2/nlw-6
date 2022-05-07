@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/server.js",
   "scripts": {
+    "init-db": "node src/db/init.js",
     "start": "nodemon node ."
   },
   "keywords": [],
